@@ -1,0 +1,218 @@
+body{
+    margin: auto;
+}
+header{
+    width: 100%;
+    /* border: 1px solid red; */
+    height: 80px;
+    background-color: orange;
+}
+a{
+    text-decoration: none;
+}
+#logo{
+    float: left;
+}
+#logo>h1{
+    margin-left: 10px;
+    color: whitesmoke;
+}
+.socialIcon{
+    float: right;
+    margin: 20px;
+
+   
+}
+.slogo {
+    width: 30px;
+    height: 30px;
+    padding-left: 10px;
+    
+}
+.Heading{
+    font-size: 30px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    color: rgba(6, 255, 255, 0.671);
+    margin-top: 10px;
+    
+}
+.DetailBtn{
+    border: none;
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px ;
+    height: 30px;
+    cursor: pointer;
+}
+/* mainconatiner starts */
+.MainContainer{
+    width: 80%;
+    height: 800px;
+    margin-left: 10%;
+    /* border: 1px solid skyblue; */
+}
+
+#filter{
+    width: 25%;
+    height: 500px;
+    border: 3px solid #53f7f7;
+float: left;
+margin-top: 30px;
+}
+   .filterHeading{
+       text-align: center;
+       color: #53f7f7;
+       border-bottom: 1px solid #53f7f7;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+       font-weight: bold;
+   }
+   .cusineFilter{
+       text-align: center;
+       color: #0d0e0e;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+
+   }
+   #cuisineFilterRadio{
+       text-align: left;
+       display: block;
+       padding-left: 5px;
+       gap: 3px;
+       line-height: 2;
+   }
+#card{
+    width: 72% ;
+    height: 700px;
+    /* border: 1px solid orange; */
+    margin-left: 2%;
+    float: left;
+    padding-left: 2px;
+
+}
+.card1{
+   float: left;
+    /* border: 1px solid black; */
+    width:33% ;
+    height: 330px;
+    box-shadow: 8px 12px 16px gray;
+    /* margin-left: 2px; */
+    margin-top: 30px;
+    /* margin-left: 5px; */
+}
+/* .card1 :hover{
+    box-shadow: 8px 8px 12px gray;
+} */
+.card1>img{
+    height: 180px;
+    width: 100%;
+}
+.card1>p{
+    margin-top: -10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+#rating{
+    width: 90%;
+    height: 25px;
+    margin-left: 5%;
+    border-top: 0.8px dashed gray;
+    border-bottom: 0.8px dashed gray;
+    margin-top: -12px;
+    padding-top: 5px;
+    padding-left: 3px;
+}
+.checked {
+    color: orange;
+    font-size: 16px;
+
+}
+.price{
+    width: 100%;
+    height: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 10px;
+    margin-top: 2px;
+}
+#rs1{
+    color: #1FA43B;
+    font-size: 20px;
+}
+#rs2{
+    padding-left: 5px;
+    color: gray;
+    font-size: 18px;
+    
+}
+#off{
+    margin-left: 8px ;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+    font: size 0.7em;;
+    display: inline-block! important ;
+    background: #fff;
+    text-transform: uppercase;
+}
+.Q{
+    padding-left: 10px;
+    font-weight: bold;
+}
+.Q1{
+margin-left: 10px;
+}
+.minusButton{
+    height: 24px;
+    background-color: #ddd;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+}
+.Q1>input{
+    -webkit-appearance: none;
+
+    border: none;
+    text-align: center;
+    width: 32px;
+    padding: 0;
+    height: auto;
+    margin: 0;
+    font-size: 1.1em;
+    color: #43484D;
+}
+.plusButton{
+    height: 24px;
+    background-color: #ddd;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+}
+.addtoCartBtn{
+    background: #1FA43B;
+    padding: 5px 6px;
+    font-size: 1em;
+    color: #fff;
+    border: none;
+    margin-left: 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    
+}
+.addtoCartBtn :hover{
+    background-color: orange;
+    color: red;
+}
+/* footer starts */
+footer{
+    height: 100px;
+    background-color: rgba(252, 189, 73, 0.719);
+    text-align: center;
+    padding-top: 5px;
+    
+}
